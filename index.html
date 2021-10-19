@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3DContent.ar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/minireset.css/0.0.2/minireset.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body class="customBody">
+  <div class="menuContainer">
+    <header class="mainHeader">
+      <a href="#">
+        <img src="./img/Logo.svg" alt="" class="logo">
+      </a>
+      <a class="navLink menuIcon">
+        <img src="./img/Menu Icon White.svg" alt="">
+      </a>
+    </header>
+    <section class="menuSection">
+      <div class="menuLinksContainer">
+        <a href="#" class="menuLink">home</a>
+        <a href="#" class="menuLink d-block d-md-none">pricing</a>
+        <a href="#" class="menuLink d-block d-md-none">how to?</a>
+        <a href="#" class="menuLink">clients</a>
+        <div class="collapseContainer">
+          <p>
+            <a class="collapseName" data-bs-toggle="collapse" href="#collapseExample" role="button"
+              aria-controls="collapseExample">
+              Services
+            </a>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div><a class="collapseItem" href="#">Web AR</a></div>
+            <div><a class="collapseItem" href="#">Instagram AR</a></div>
+            <div><a class="collapseItem" href="#">Mobile App AR</a></div>
+            <div><a class="collapseItem" href="#">3D Product Visualization</a></div>
+            <div><a class="collapseItem" href="#">Custom 3D Animation</a></div>
+          </div>
+        </div>
+        <a href="#" class="menuLink">company</a>
+        <a href="#" class="menuLink">contact</a>
+      </div>
+      <div class="brandsContainer">
+        <h3 class="generalHeading customized">Our clients</h3>
+        <div class="row">
+          <div class="col-5">
+            <div class="row">
+              <div class="col-md-3 col-sm-4 col-6">
+                <img src="./img/IKEA logo.png" alt="">
+              </div>
+              <div class="col-md-3 col-sm-4 col-6">
+                <img src="./img/british airways logo.png" alt="">
+              </div>
+              <div class="col-md-3 col-sm-4 col-6">
+                <img src="./img/victorias-secret-logo-11562973433mq5umxcwsd.png" alt="">
+              </div>
+              <div class="col-md-3 col-sm-4 col-6">
+                <img src="./img/beyond live logo 1.png" alt="">
+              </div>
+              <div class="col-md-3 col-sm-4 col-6">
+                <img src="./img/decathlon logo.png" alt="">
+              </div>
+              <div class="col-md-3 col-sm-4 col-6">
+                <img src="./img/ck logo.png" alt="">
+              </div>
+              <div class="col-md-3 col-sm-4 col-6">
+                <img src="./img/telia_company_reg_b_rgb.png" alt="">
+              </div>
+              <div class="col-md-3 col-sm-4 col-6">
+                <img src="./img/youtube logo 1.png" alt="">
+              </div>
+              <div class="col-md-3 col-sm-4 col-6">
+                <img src="./img/hollister logo.png" alt="">
+              </div>
+              <div class="col-md-3 col-sm-4 col-6">
+                <img src="./img/coca_cola.png" alt="">
+              </div>
+              <div class="col-md-3 col-sm-4 col-6">
+                <img src="./img/century-21-new-logo-png-transparent.png" alt="">
+              </div>
+              <div class="col-md-3 col-sm-4 col-6">
+                <img src="./img/instagram logo 1.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="menuFooter">
+        <a href="#" class="menuFooterLink">Privacy Policy</a>
+        <a href="#" class="menuFooterLink">Return Policy</a>
+        <a href="#" class="menuFooterLink">T&C</a>
+      </footer>
+    </section>
+  </div>
+  <!-- MAIN HEADER -->
+  <div class="contentBody">
+    <header class="mainHeader">
+      <a href="#">
+        <img src="./img/Logo_3dcontentar.svg" alt="" class="mainLogo black">
+        <img src="./img/Horizontal Logo white.svg" alt="" class="mainLogo white">
+      </a>
+      <div class="navLinksContainer">
+        <div class="d-none d-md-inline-block">
+          <div class="d-flex align-items-center">
+            <div class="popup">
+              <a class="navLink pricingBtn" data-popup=".pricing" aria-current="page" href="#">
+                Pricing
+                <div class="triangle"></div>
+              </a>
+              <div class="customPopup pricing">
+                <h6 class="popupHeading">Priced per model</h6>
+                <p class="details">Tincidunt viverra sed at tristique sociis in nisl nulla.</p>
+                <div class="popupCardsContainer">
+                  <div class="popupCard">
+                    <div class="cardHeading">Complexity I</div>
+                    <div class="cardAmount"><span class="dollar">$</span><span class="ms-4 ps-2">39</span></div>
+                    <div class="feature mt-3">
+                      <img src="./img/Checklist.png" alt="" class="checkList">
+                      <h6>3D Modal</h6>
+                    </div>
+                    <div class="feature">
+                      <img src="./img/Checklist.png" alt="" class="checkList">
+                      <h6>3D Viewer</h6>
+                    </div>
+                    <div class="feature">
+                      <img src="./img/Checklist.png" alt="" class="checkList">
+                      <h6>3D Hosting</h6>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="cardBtn btnDark">Samples</a>
+                    </div>
+                  </div>
+                  <div class="popupCard">
+                    <div class="cardHeading">Complexity I</div>
+                    <div class="cardAmount"><span class="dollar">$</span><span class="ms-4 ps-2">39</span></div>
+                    <div class="feature mt-3">
+                      <img src="./img/Checklist.png" alt="" class="checkList">
+                      <h6>3D Modal</h6>
+                    </div>
+                    <div class="feature">
+                      <img src="./img/Checklist.png" alt="" class="checkList">
+                      <h6>3D Viewer</h6>
+                    </div>
+                    <div class="feature">
+                      <img src="./img/Checklist.png" alt="" class="checkList">
+                      <h6>3D Hosting</h6>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="cardBtn btnDark">Samples</a>
+                    </div>
+                  </div>
+                  <div class="popupCard">
+                    <div class="cardHeading">Complexity I</div>
+                    <div class="cardAmount"><span class="dollar">$</span><span class="ms-4 ps-2">39</span></div>
+                    <div class="feature mt-3">
+                      <img src="./img/Checklist.png" alt="" class="checkList">
+                      <h6>3D Modal</h6>
+                    </div>
+                    <div class="feature">
+                      <img src="./img/Checklist.png" alt="" class="checkList">
+                      <h6>3D Viewer</h6>
+                    </div>
+                    <div class="feature">
+                      <img src="./img/Checklist.png" alt="" class="checkList">
+                      <h6>3D Hosting</h6>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="cardBtn btnDark">Samples</a>
+                    </div>
+                  </div>
+                  <div class="popupCard">
+                    <div class="cardHeading">Complexity I</div>
+                    <div class="cardAmount"><span class="dollar">$</span><span class="ms-4 ps-2">39</span></div>
+                    <div class="feature mt-3">
+                      <img src="./img/Checklist.png" alt="" class="checkList">
+                      <h6>3D Modal</h6>
+                    </div>
+                    <div class="feature">
+                      <img src="./img/Checklist.png" alt="" class="checkList">
+                      <h6>3D Viewer</h6>
+                    </div>
+                    <div class="feature">
+                      <img src="./img/Checklist.png" alt="" class="checkList">
+                      <h6>3D Hosting</h6>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="cardBtn btnDark">Samples</a>
+                    </div>
+                  </div>
+                  <div class="popupCard">
+                    <div class="cardHeading">Complexity I</div>
+                    <div class="cardAmount"><span class="dollar">$</span><span class="ms-4 ps-2">39</span></div>
+                    <div class="feature mt-3">
+                      <img src="./img/Checklist.png" alt="" class="checkList">
+                      <h6>3D Modal</h6>
+                    </div>
+                    <div class="feature">
+                      <img src="./img/Checklist.png" alt="" class="checkList">
+                      <h6>3D Viewer</h6>
+                    </div>
+                    <div class="feature">
+                      <img src="./img/Checklist.png" alt="" class="checkList">
+                      <h6>3D Hosting</h6>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="cardBtn btnDark">Samples</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-end">
+                  <a href="#" class="moreLink">MORE</a>
+                </div>
+              </div>
+            </div>
+            <div class="popup">
+              <a class="navLink howTwoBtn" data-popup=".howTo" href="#">
+                How to?
+                <div class="customTriangle"></div>
+              </a>
+              <div class="customPopup howTo">
+                <div class="popupCardsContainer">
+                  <div class="videoContainer">
+                    <div class="videoCard">
+                      <img src="./img/Play Btn.png" alt="">
+                    </div>
+                    <h2 class="popupHeading">Place Video Title Here</h2>
+                  </div>
+                  <div class="videoContainer">
+                    <div class="videoCard">
+                      <img src="./img/Play Btn.png" alt="">
+                    </div>
+                    <h2 class="popupHeading">Place Video Title Here</h2>
+                  </div>
+                  <div class="videoContainer">
+                    <div class="videoCard">
+                      <img src="./img/Play Btn.png" alt="">
+                    </div>
+                    <h2 class="popupHeading">Place Video Title Here</h2>
+                  </div>
+                  <div class="videoContainer">
+                    <div class="videoCard">
+                      <img src="./img/Play Btn.png" alt="">
+                    </div>
+                    <h2 class="popupHeading">Place Video Title Here</h2>
+                  </div>
+                </div>
+                <div class="text-end">
+                  <a href="#" class="moreLink">MORE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="me-5 navBtn d-none d-md-inline-block">Dashboard</a>
+        <a href="#" class="navLink menuIcon">
+          <img src="./img/Menu Icon.png" alt="" class="blackMenuIcon">
+          <img src="./img/Menu Icon White.svg" class="whiteMenuIcon" alt="">
+        </a>
+      </div>
+    </header>
+    <section class="carouselSection">
+      <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="false" >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-slide-to="0">
+            <div class="row customized">
+              <div class="col-lg-7">
+                <div class="text-center text-md-start">
+                  <h1 class="mainHeadingPop">
+                    Models made from your photos
+                  </h1>
+                  <p class="details customized">We turn your product photos into stunning 3D digital files.</p>
+                  <a href="#" class="navBtn">Go to Dashboard</a>
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-6 offset-md-6 offset-lg-0 offset-sm-0 mt-4 mt-lg-0">
+                <div class="text-center text-md-start">
+                  <img src="./img/pngaaa 1.png" alt="">
+                </div>
+                <h6 class="generalHeading mt-5 mb-3">Photo Input</h6>
+                <div class="photoInputContainer">
+                  <img src="./img/image 1.png" alt="">
+                  <img src="./img/image 2.png" alt="">
+                  <img src="./img/image 3.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-slide-to="1">
+            <div class="row customized">
+              <div class="col-lg-6">
+                <div class="text-center text-md-start">
+                  <h1 class="mainHeadingPop">
+                    One Dashboard
+                  </h1>
+                  <p class="details customized">Upload your photos, place an order, then download your model</p>
+                  <a href="#" class="navBtn">Go to Dashboard</a>
+                </div>
+              </div>
+              <div class="col-md-6 offset-md-6 offset-lg-0 offset-sm-0 mt-4 mt-lg-0">
+                <div class="text-center text-md-start">
+                  <img src="./img/Dashboard-Img.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-slide-to="2">
+            <div class="row customized">
+              <div class="col-lg-7">
+                <div class="text-center text-md-start">
+                  <h1 class="mainHeadingPop">
+                    AR & VR Models
+                  </h1>
+                  <p class="details customized">We use the universal GLB format. One file that works on laptops, phones, AR, and VR.</p>
+                  <a href="#" class="navBtn">Go to Dashboard</a>
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-6 offset-md-6 offset-lg-0 offset-sm-0 mt-4 mt-lg-0">
+                <div class="text-center text-md-start">
+                  <img src="./img/ar-phone 1.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <img src="./img/Left Button.svg" alt="" class="navigationBtn">
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <img src="./img/Right Button.svg" alt="" class="navigationBtn">
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <footer class="formPageFooter">
+      <p class="slideNumberContainer d-block d-md-none"><span class="slideNumber">1</span>/3</p>
+      <h3 class="generalHeading">Follow</h3>
+      <p class="footerText">2021 © 3D Content. All rights reserved</p>
+      <p class="slideNumberContainer d-none d-md-block"><span class="slideNumber">1</span>/3</p>
+      <a href="#" class="chatBtn">
+        <img src="./img/Chat Btn.png" alt="" class="whiteChatBtn">
+        <img src="./img/Chat Btn pink.png" alt="" class="pinkChatBtn">
+        <img src="./img/Chat Btn black.png" alt="" class="blackChatBtn">
+      </a>
+    </footer>
+  </div>
+  <!-- FORM SECTION END-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+  </script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
